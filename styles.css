@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: Lexend-Deca;
+    src: url('./fonts/Lexend-Deca/static/LexendDeca-Regular.ttf');
+}
+
+@font-face {
+    font-family: Big-Shoulders-Display;
+    src: url('./fonts/Big-Shoulders-Display/static/BigShouldersDisplay-Bold.ttf');
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+#card {
+    width: 60%;
+    margin: 10% 20% 3%;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.area {
+    flex: 1;
+    padding: 5%;
+}
+
+#area-sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+#area-suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#area-luxury {
+    background-color: hsl(179, 100%, 13%);
+}
