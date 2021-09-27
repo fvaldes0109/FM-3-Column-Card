@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: Big-Shoulders-Display;
-    src: url('./fonts/Big-Shoulders-Display/static/BigShouldersDisplay-Bold.ttf');
+    src: url('./fonts/Big-Shoulders-Display/static/BigShouldersDisplay-SemiBold.ttf');
 }
 
 body {
@@ -18,8 +18,8 @@ body {
 }
 
 #card {
-    width: 60%;
-    margin: 10% 20% 3%;
+    width: 830px;
+    margin: 8% auto;
     display: flex;
     border-radius: 10px;
     overflow: hidden;
@@ -39,8 +39,23 @@ h1 {
 p {
     color: hsla(0, 0%, 100%, 0.75);
     font-family: Lexend-Deca;
-    font-size: 13.7px;
+    font-size: 14px;
     margin: 0 0 10%;
+    line-height: 1.7;
+}
+
+button {
+    margin: 30% 0 0;
+    background-color: hsl(0, 0%, 95%);
+    border-width: 3px;
+    border-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    border-style: solid;
+    padding: 4% 11%;
+}
+
+span {
+    font-family: Lexend-Deca;
 }
 
 #area-sedans {
@@ -53,4 +68,16 @@ p {
 
 #area-luxury {
     background-color: hsl(179, 100%, 13%);
+}
+
+#area-sedans span {
+    color:hsl(31, 77%, 52%);
+}
+
+#area-suvs span {
+    color:hsl(184, 100%, 22%);
+}
+
+#area-luxury span {
+    color:hsl(179, 100%, 13%);
 }
