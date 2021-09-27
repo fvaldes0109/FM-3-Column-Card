@@ -81,3 +81,17 @@ span {
 #area-luxury span {
     color:hsl(179, 100%, 13%);
 }
+
+@media(max-width: 375px) {
+    #card {
+        width: 90%;
+        margin: 5%;
+        flex-direction: column;
+    }
+    .area {
+        padding: 17.2%;
+    }
+    button {
+        margin: 0;
+    }
+}
