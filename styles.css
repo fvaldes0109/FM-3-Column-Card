@@ -82,6 +82,22 @@ span {
     color:hsl(179, 100%, 13%);
 }
 
+button:hover {
+    background-color: hsla(0, 0%, 100%, 0.0);
+}
+
+#area-sedans button:hover span {
+    color:hsl(0, 0%, 95%);
+}
+
+#area-suvs button:hover span {
+    color:hsl(0, 0%, 95%);
+}
+
+#area-luxury button:hover span {
+    color:hsl(0, 0%, 95%);
+}
+
 @media(max-width: 375px) {
     #card {
         width: 90%;
